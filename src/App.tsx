@@ -221,7 +221,7 @@ const Block = ({ block }: { block: BlockData }) => {
             <div className="w-6 h-6 rounded-lg bg-red-600 text-white flex items-center justify-center"><Youtube size={12} /></div>
             <div className="flex-1 min-w-0">
               <h3 className="text-[10px] md:text-xs font-bold text-gray-900 truncate">{block.channelTitle || 'YouTube'}</h3>
-              <span className="text-[8px] text-gray-400">Latest videos</span>
+              <span className="text-[8px] text-gray-400">Dernières vidéos</span>
             </div>
           </div>
           {loading ? <div className="flex-1 flex items-center justify-center"><Loader2 className="animate-spin text-gray-300" size={16} /></div> : (

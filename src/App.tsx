@@ -1,8 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import { Youtube, Play, Loader2 } from 'lucide-react'
 import {
-  SiInstagram, SiYoutube, SiGithub, SiGitlab, SiLinkedin,
-  SiFacebook, SiTwitch, SiDribbble, SiMedium, SiDevdotto, SiReddit,
+  SiInstagram, SiYoutube, SiGithub, SiGitlab, SiFacebook, SiTwitch, SiDribbble, SiMedium, SiDevdotto, SiReddit,
   SiPinterest, SiThreads, SiBluesky, SiMastodon, SiSubstack, SiPatreon,
   SiKofi, SiBuymeacoffee, SiSnapchat, SiDiscord, SiTelegram, SiWhatsapp,
 } from 'react-icons/si'
